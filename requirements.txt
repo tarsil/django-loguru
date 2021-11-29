@@ -1,5 +1,6 @@
 django>=3.1
 loguru==0.5.3
+mkdocs-material==8.0.1
 pytest==3.0.6
 pytest-spec==1.16.0
 tox==3.24.4

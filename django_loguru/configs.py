@@ -1,6 +1,6 @@
 DEFAULTS = {
     'DEFAULT_FORMAT': True,
-    'MESSAGE_FORMAT': "<b><green>{time}</green> <cyan>{message}</cyan></b>",
+    'MESSAGE_FORMAT': "<b><green>{time}</green> <blue>{message}</blue></b>",
     'LOG_POST': False,
     'LOG_PUT': False,
     'LOG_PATCH': False,
