@@ -5,7 +5,7 @@ One of the biggest problems with the apps is the logging and that can be messy s
 
 Since this serves as a middleware, it only depends on django (including django rest framework).
 
-Documentation: https://github.com/tarsil/django-loguru/
+Documentation: https://tarsil.github.io/django-loguru/
 
 ## Table of Contents
 

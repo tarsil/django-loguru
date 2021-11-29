@@ -11,7 +11,7 @@ setuptools.setup(
     description="A middleware to log the requests and responses using loguru.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="git@github.com:tarsil/django-loguru.git",
+    url="https://github.com/tarsil/django-loguru",
     packages=setuptools.find_packages(exclude=['tests*']),
     install_requires=["django>=3.1", "loguru"],
     classifiers=[
@@ -19,8 +19,10 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
         "Environment :: Web Environment",
-        "Framework :: Django :: 3.1"
-        "Framework :: Django :: 3.2"
+        "Framework :: Django",
+        "Framework :: Django :: 3.1",
+        "Framework :: Django :: 3.2",
+        "Topic :: Software Development :: Libraries :: Python Modules",
     ],
     python_requires='>=3.7',
 )
