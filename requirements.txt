@@ -1,1 +1,5 @@
+django>=3.1
 loguru==0.5.3
+pytest==3.0.6
+pytest-spec==1.16.0
+tox==3.24.4
