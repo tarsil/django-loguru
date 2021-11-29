@@ -1,4 +1,4 @@
-# Django Loguru Middleware
+# Django Loguru
 
 The extension was based on another one and added some extra flavours.
 One of the biggest problems with the apps is the logging and that can be messy sometimes.
