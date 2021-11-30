@@ -1,8 +1,12 @@
 # Release Notes
 
+## 1.0.3
+
+- Fixed GET verb in the `middleware.py` that was causing validation issues.
+
 ## 1.0.2
 
-- Fixed HTTP METHODS string
+- Fixed HTTP METHODS string.
 
 ## 1.0.1
 

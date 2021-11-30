@@ -25,7 +25,7 @@ class DjangoLoguruMiddleware:
         logger.info(f"URL: {request.get_raw_uri()}")
         logger.info(f"Method: {request.method}")
 
-        if request.method == 'get':
+        if request.method == 'GET':
             logger.info(f"Data: {request.method.GET}")
 
         if configs.LOG_POST and request.method == 'POST':
