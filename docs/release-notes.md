@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.0.2
+
+- Fixed HTTP METHODS string
+
 ## 1.0.1
 
 - Fixed typo in `middleware.py`.

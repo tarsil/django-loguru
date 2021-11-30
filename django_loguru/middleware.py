@@ -28,16 +28,16 @@ class DjangoLoguruMiddleware:
         if request.method == 'get':
             logger.info(f"Data: {request.method.GET}")
 
-        if configs.LOG_POST and request.method == 'post':
+        if configs.LOG_POST and request.method == 'POST':
             logger.info(f"Data: {request.method.POST}")
 
-        if configs.LOG_PUT and request.method == 'put':
+        if configs.LOG_PUT and request.method == 'PUT':
             logger.info(f"Data: {request.method.PUT}")
 
-        if configs.LOG_PATCH and request.method == 'patch':
+        if configs.LOG_PATCH and request.method == 'PATCH':
             logger.info(f"Data: {request.method.PATCH}")
 
-        if configs.LOG_DELETE and request.method == 'delete':
+        if configs.LOG_DELETE and request.method == 'DELETE':
             logger.info(f"Data: {request.method.DELETE}")
 
         response = self.get_response(request)
