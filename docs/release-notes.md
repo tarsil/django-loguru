@@ -1,5 +1,9 @@
 # Release Notes
 
+## 1.0.1
+
+- Fixed typo in `middleware.py`.
+
 ## 1.0.0
 
 - Initial release
